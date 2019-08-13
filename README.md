@@ -19,8 +19,10 @@ React...
 + Light-weight
 + Component based theory
 + Separation of concerns
++ Can replace the *V* of any MVC framework
 
 ## Toolbox
+
 + HTML
 + CSS
 + Javascript, ES2016
@@ -61,6 +63,25 @@ React...
 `npm run build`
 
 ```
+
+
+## Things to Know
+
+**Components** parts of a site/application
+  - i.e. Header, Footer, form controls
+**State** is the current situation(state) of a component
+**Props** are data/information shared from a parent to a child component
+
+
+
+## Reactized
+
+Popular sites partially/completely written in React JS
+- [Instragram](https://www.instagram.com/)
+- [Airbnb](https://www.airbnb.com/)
+- [Dropbox](https://www.dropbox.com/)
+- [Paypal](https://www.paypal.com/)
+- [Netflix](https://www.netflix.com/)
 
 
 ***
@@ -132,5 +153,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
+
+
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
