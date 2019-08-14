@@ -12,20 +12,24 @@ React...
 + Is open source
 + Has a large community following
 + The most widely used framework
-  - State of JS 2018 Survey
+  - [State of JS 2018 Survey](https://2018.stateofjs.com)
   - Surveyed 20,000 developers worldwide
   - 28% of those surveyed live in US
 + Built with Object Oriented Programming paradigm in mind but not tied to it
 + Light-weight
 + Component based theory
 + Separation of concerns
++ Able to power the *V* in any MVC framework
 
 ## Toolbox
+
 + HTML
 + CSS
 + Javascript, ES2016
 + JSX, not required but highly recommended
-+ IDE, VS Code, Atom, etc
+  - It is Javascript, but represents what the UI should look like
++ IDE
+  - Visual Studio Code, Atom, etc
 + Node
 + NPM and NPX, both come preshipped with latest Node
 + [React JS](https://reactjs.org/)
@@ -34,6 +38,25 @@ React...
   - Documentation
 + [Create React App](https://facebook.github.io/create-react-app/)
   - Note that Webpack and Babel comes preshipped with Create React App package module
+
+
+## Create React App
+
+Optional, but very highly recommended to use! A toolchain that lets you easily (and painlessly) scaffold out React applications. Get started without any configuration!
+
+To install run
+```
+npm install -g create-react-app
+```
+
+Create React App...
++ Can quickly setup up a working boilerplate React app
++ Requires very little configuration
++ Gives you live-reloading
+  - Make edits, save it and see that the browser already has your changes reflected
++ Offers a great developer experience
++ Under the hood, it is running Webpack and Babel, but you won't even notice.
+
 
 
 ## Hello World!
@@ -61,6 +84,29 @@ React...
 `npm run build`
 
 ```
+
+
+## Things to Know
+
+**Components** are parts that make up a site/application
+  - i.e. Header, Footer, form controls
+**State** is the current situation(state) of a component
+  - ie. The state of a checkbox component could be `isChecked = true/false`
+**Props** are data/information shared from a parent to a child component
+  - Similar to state but is actually passed down to child components
+**Life Cycle Methods** custom functionality that are executed throughout all the various stages of a component's life cycle in React
+  - ie. `componentDidMount()`, `componentWillUnmount()`
+
+
+
+## Reactized
+
+Popular sites partially/completely written in React JS
+- [Instagram](https://www.instagram.com/)
+- [Airbnb](https://www.airbnb.com/)
+- [Dropbox](https://www.dropbox.com/)
+- [Paypal](https://www.paypal.com/)
+- [Netflix](https://www.netflix.com/)
 
 
 ***
@@ -132,5 +178,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `npm run build` fails to minify
+
+
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
