@@ -68,8 +68,9 @@ Create React App...
 + Requires very little configuration
 + Gives you live-reloading
   - Make edits, save it and see that the browser already has your changes reflected
+  - Focus on development
 + Offers a great developer experience
-+ Under the hood, it is running Webpack and Babel, but you won't even notice.
++ Running Webpack and Babel under the hood, but you won't even notice!
 
 
 ## Things to Know
