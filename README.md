@@ -114,6 +114,13 @@ Create React App...
 Lets create our first Hello world application. Please feel free to follow along.
 
 
+## Don't try this at home folks, Eject!
+
+Create React App is like magic, but not really. Lets discover why. Don't try this at home...or rather on your master branch.
+```
+npm run eject
+```
+
 ## Reactized
 
 Popular sites partially/completely written in React JS
