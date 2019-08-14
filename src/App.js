@@ -1,21 +1,13 @@
-import React, {Component} from 'react';
+import React from 'react';
 import Greetings from "./Greetings";
-import './App.css';
+import './App.scss';
 
-//# Functional Component
-// function App() {
-//   return (
-//     <Greetings />
-//   )
-// }
-
-//# Class Component
-class App extends Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      name: "John"
+      name: "John Doe"
     };
   }
 
