@@ -1,6 +1,9 @@
 # Intro to React + Create React App
 
-The purpose of this repo is to get our team set up with a starter boilerplate. Ask qustions at anytime!
+The purpose of this repo is to get our team better acquainted with React and to officially set us up with a starter boilerplate for building React applications. Ask qustions at anytime!
+
+> A JavaScript library for building user interfaces.
+- [ReactJS](https://reactjs.org)
 
 
 ## Brief
@@ -10,19 +13,27 @@ React...
   - Jordan Walke
 + Is currently developed and maintained by Facebook
 + Is a library, not a framework
+  - Both are code written by another party
+  - Different being *Inverted Control*
+  - Libary, you are in control
+    - Collection of class definitions we can utilize
+  - Framework, the framework controls you
+    - The Hollywood Principle: "Don't call us, we'll call you!"
+    - Change and write our code according to what is given to us
 + Is open source
+  - Share, modify, publicly available
 + Has a large community following
 + The most widely used Javascript tool
   - [State of JS 2018 Survey](https://2018.stateofjs.com)
     - Surveyed 20,000 developers worldwide
     - 28% of those surveyed live in US
 + Built with Object Oriented Programming paradigm in mind but not tied to it
-+ Light-weight
 + Easy to understand
 + Component based theory
 + Separation of concerns
 + Able to power the *V* part in any *MVC* framework
 + Makes you a better Javascript developer
+
 
 ## Toolbelt
 
@@ -61,6 +72,17 @@ Create React App...
 + Under the hood, it is running Webpack and Babel, but you won't even notice.
 
 
+## Things to Know
+
+**Components** are parts that make up a site/application
+  - i.e. Header, Footer, form controls
+**State** is the current situation(state) of a component
+  - ie. The state of a checkbox component could be `isChecked = true/false`
+**Props** are data/information shared from a parent to a child component
+  - Similar to state but is actually passed down to child components
+**Life Cycle Methods** custom functionality that are executed throughout all the various stages of a component's life cycle in React
+  - ie. `componentDidMount()`, `componentWillUnmount()`
+
 
 ## Hello World!
 
@@ -85,22 +107,10 @@ Create React App...
 
 ```
 
+
 ## Lets Build!
 
 Lets create our first Hello world application. Please feel free to follow along.
-
-
-## Things to Know
-
-**Components** are parts that make up a site/application
-  - i.e. Header, Footer, form controls
-**State** is the current situation(state) of a component
-  - ie. The state of a checkbox component could be `isChecked = true/false`
-**Props** are data/information shared from a parent to a child component
-  - Similar to state but is actually passed down to child components
-**Life Cycle Methods** custom functionality that are executed throughout all the various stages of a component's life cycle in React
-  - ie. `componentDidMount()`, `componentWillUnmount()`
-
 
 
 ## Reactized
@@ -113,7 +123,9 @@ Popular sites partially/completely written in React JS
 - [Netflix](https://www.netflix.com/)
 
 
+
 ***
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
