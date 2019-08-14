@@ -1,27 +1,30 @@
 # Intro to React + Create React App
 
-The purpose of this repo is to get our team set up with a starter boilerplate.
+The purpose of this repo is to get our team set up with a starter boilerplate. Ask qustions at anytime!
 
 
 ## Brief
 
 React...
 + Was released in May of 2009
-+ Is developed and maintained by Facebook
+  - Jordan Walke
++ Is currently developed and maintained by Facebook
 + Is a library, not a framework
 + Is open source
 + Has a large community following
-+ The most widely used framework
++ The most widely used Javascript tool
   - [State of JS 2018 Survey](https://2018.stateofjs.com)
-  - Surveyed 20,000 developers worldwide
-  - 28% of those surveyed live in US
+    - Surveyed 20,000 developers worldwide
+    - 28% of those surveyed live in US
 + Built with Object Oriented Programming paradigm in mind but not tied to it
 + Light-weight
++ Easy to understand
 + Component based theory
 + Separation of concerns
-+ Able to power the *V* in any MVC framework
++ Able to power the *V* part in any *MVC* framework
++ Makes you a better Javascript developer
 
-## Toolbox
+## Toolbelt
 
 + HTML
 + CSS
@@ -80,10 +83,11 @@ Create React App...
 # Running the project
 `npm start`
 
-# To build onto production
-`npm run build`
-
 ```
+
+## Lets Build!
+
+Lets create our first Hello world application. Please feel free to follow along.
 
 
 ## Things to Know
