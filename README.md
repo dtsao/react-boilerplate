@@ -76,10 +76,10 @@ Create React App...
 ## Things to Know
 
 **Components** are parts that make up a site/application
-  - i.e. Header, Footer, form controls
+  - Header, Footer, form controls
 
 **State** is the current situation(state) of a component
-  - ie. The state of a checkbox component could be `isChecked = true/false`
+  - The state of a checkbox component could be `isChecked = true/false`
 
 **Props** are data/information shared from a parent to a child component
   - Similar to state but is actually passed down to child components
@@ -87,7 +87,7 @@ Create React App...
 **Life Cycle Methods** custom functionality we can execute throughout all the various stages of a component's life cycle in React
 
 
-## Hello World!
+## Getting Started with Hello World!
 
 ```
 # Open up your terminal app
@@ -98,7 +98,7 @@ Create React App...
 # If you have installed Create React App yet
 `npm install -g create-react-app`
 
-# Creating the actual React application
+# Creating the React application
 # Note, you can use npm and yarn to scaffold out the project too
 `npx create-react-app react-boilerplate`
 
@@ -118,7 +118,7 @@ Lets create our first Hello world application. Please feel free to follow along.
 
 ## Don't try this at home folks, Eject!
 
-Create React App is like magic, but not really. Lets discover why. Don't try this at home...or rather on your master branch.
+Create React App is like magic, but not really too. Lets discover why. Don't try this at home...or rather on your master branch.
 ```
 npm run eject
 ```
@@ -131,6 +131,19 @@ Popular sites partially/completely written in React JS
 - [Dropbox](https://www.dropbox.com/)
 - [Paypal](https://www.paypal.com/)
 - [Netflix](https://www.netflix.com/)
+
+
+# Homework
+
+- Famiarize yourself with the basics of React by reading the [glossary page](https://reactjs.org/docs/glossary.html)
+- Take this tutorial from [Tania](https://www.taniarascia.com/getting-started-with-react/), it taught me
+  - Starting a project
+  - States
+  - Props
+  - Life Cycle Methods
+  - Fetching, binding, manipulating, and passing data
+  - Building and deploying a React Application
+
 
 
 
