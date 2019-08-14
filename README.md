@@ -9,10 +9,10 @@ The purpose of this repo is to get our team better acquainted with React and to 
 ## Brief
 
 React...
-+ Was released in May of 2009
+- Was released in May of 2009
   - Jordan Walke
-+ Is currently developed and maintained by Facebook
-+ Is a library, not a framework
+- Is currently developed and maintained by Facebook
+- Is a library, not a framework
   - Both are code written by another party
   - Different being *Inverted Control*
   - Libary, you are in control
@@ -20,37 +20,37 @@ React...
   - Framework, the framework controls you
     - The Hollywood Principle: "Don't call us, we'll call you!"
     - Change and write our code according to what is given to us
-+ Is open source
+- Is open source
   - Share, modify, publicly available
-+ Has a large community following
-+ The most widely used Javascript tool
+- Has a large community following
+- The most widely used Javascript tool
   - [State of JS 2018 Survey](https://2018.stateofjs.com)
     - Surveyed 20,000 developers worldwide
     - 28% of those surveyed live in US
-+ Built with Object Oriented Programming paradigm in mind but not tied to it
-+ Easy to understand
-+ Component based theory
-+ Separation of concerns
-+ Able to power the *V* part in any *MVC* framework
-+ Makes you a better Javascript developer
+- Built with Object Oriented Programming paradigm in mind but not tied to it
+- Easy to understand
+- Component based theory
+- Separation of concerns
+- Able to power the *V* part in any *MVC* framework
+- Makes you a better Javascript developer
 
 
 ## Toolbelt
 
-+ HTML
-+ CSS
-+ Javascript, ES2016
-+ JSX, not required but highly recommended
+- HTML
+- CSS
+- Javascript, ES2016
+- JSX, not required but highly recommended
   - It is Javascript, but represents what the UI should look like
-+ IDE
+- IDE
   - Visual Studio Code, Atom, etc
-+ Node
-+ NPM and NPX, both come preshipped with latest Node
-+ [React JS](https://reactjs.org/)
+- Node
+- NPM and NPX, both come preshipped with latest Node
+- [React JS](https://reactjs.org/)
   - Tutorials
   - Guides
   - Documentation
-+ [Create React App](https://facebook.github.io/create-react-app/)
+- [Create React App](https://facebook.github.io/create-react-app/)
   - Note that Webpack and Babel comes preshipped with Create React App package module
 
 
@@ -64,25 +64,27 @@ npm install -g create-react-app
 ```
 
 Create React App...
-+ Can quickly setup up a working boilerplate React app
-+ Requires very little configuration
-+ Gives you live-reloading
+- Can quickly setup up a working boilerplate React app
+- Requires very little configuration
+- Gives you live-reloading
   - Make edits, save it and see that the browser already has your changes reflected
   - Focus on development
-+ Offers a great developer experience
-+ Running Webpack and Babel under the hood, but you won't even notice!
+- Offers a great developer experience
+- Running Webpack and Babel under the hood, but you won't even notice!
 
 
 ## Things to Know
 
 **Components** are parts that make up a site/application
   - i.e. Header, Footer, form controls
+
 **State** is the current situation(state) of a component
   - ie. The state of a checkbox component could be `isChecked = true/false`
+
 **Props** are data/information shared from a parent to a child component
   - Similar to state but is actually passed down to child components
-**Life Cycle Methods** custom functionality that are executed throughout all the various stages of a component's life cycle in React
-  - ie. `componentDidMount()`, `componentWillUnmount()`
+
+**Life Cycle Methods** custom functionality we can execute throughout all the various stages of a component's life cycle in React
 
 
 ## Hello World!
