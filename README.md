@@ -23,4 +23,4 @@ Hooks are new to React and allow developers to create components with significan
 ![Captian Hook](https://media.giphy.com/media/FIhBdogDLQiGs/giphy.gif)
 
 #### Homework
-[Review this React Tutorial](reactjs.org/tutorial/tutorial.html). It will go over all major concepts involving components, state and props in React. When in doubt look at the wonderfully written [React Docs](reactjs.org/docs/getting-started.html).
+[Review this React Tutorial](https://reactjs.org/tutorial/tutorial.html). It will go over all major concepts involving components, state and props in React. When in doubt look at the wonderfully written [React Docs](https://reactjs.org/docs/getting-started.html).

@@ -8,10 +8,9 @@ class HelloData extends Component {
   }
 
   componentDidMount() {
-    fetch('http://slowwly.robertomurray.co.uk/delay/3000/url/https://jsonplaceholder.typicode.com/todos')
+    fetch('https://jsonplaceholder.typicode.com/todos')
       .then(response => response.json())
       .then(json => {
-
         this.setState({apiData: json.splice(0,10)})
       })
   }
