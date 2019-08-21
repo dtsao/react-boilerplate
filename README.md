@@ -21,3 +21,6 @@ As a general rule API calls should be made at a higher point in your application
 Hooks are new to React and allow developers to create components with significantly reduced boilerplate. The `useState()` function is basically the component's state object and `setState()` compined into one. `useEffect()` is kind of like `componentDidMount()`, `componentDidUpdate()`, and `componentWillUpdate()` all rolled into one function. So clean! [Go Learn Hooks!](https://reactjs.org/docs/hooks-reference.html)
 
 ![Captian Hook](https://media.giphy.com/media/FIhBdogDLQiGs/giphy.gif)
+
+#### Homework
+[Review this React Tutorial](reactjs.org/tutorial/tutorial.html). It will go over all major concepts involving components, state and props in React. When in doubt look at the wonderfully written [React Docs](reactjs.org/docs/getting-started.html).
