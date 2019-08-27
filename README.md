@@ -14,4 +14,4 @@
 
 # Week 4
 
-[Intro to Components and API calls](https://github.com/leetoufong/react-boilerplate/tree/pages-and-routing)
+[Pages and Routing](https://github.com/leetoufong/react-boilerplate/tree/pages-and-routing)
