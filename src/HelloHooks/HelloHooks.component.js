@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 function HelloHooks() {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
   useEffect(() => {
     document.title = show ? 'Hi There' : 'I\'m hiding';
   });

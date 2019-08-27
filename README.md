@@ -1,26 +1,22 @@
-#### React Components
+# Pages and Routing
 
-Javascript classes that inherit from `React.Component` are able to take advantage of React's state management, render function, lifecycle hooks.
+## Rendering: Server Side vs Client Side
 
-State management means that a component is constantly aware of how it is supposed to present data to the UI. Rather than directly mutating the state object `React.Component` uses a method called `setState()` which accept a new object as an argument and uses `Object.assign` to create a new object. 
+Server Side Rendering, like what happens in .NET apps, is when your server dynamically builds your web page before sending it to the client. The URL that is sent to the server acts as build instructions for the server to know what to sent back.
 
-After a Component receives a new state object the `render()` function is called. React then checks for any 'diffs' in this state object compared to the previous state object and then rerenders the DOM accordingly. React has a diffing algorithm that compares changes to it's virtual DOM to what is currently on the page so that it can selectively remove and update nodes rather than doing a full repaint of the DOM, which would otherwise be expensive.
+Single Page Apps are not server side rendered meaning that all of the dynamic build instructions are sent to the client up front. This means that any change in URL must be handled entirely with _JAVASCRIPT_
 
-React has a few lifecycle methods that can be included from `React.Component` which are called respective to rendering. `componentDidMount()` is called immediately after the first render of the component. `componentDidUpdate()` is called immediately following an update of the component. `componentWillUnmount()` called immediately before the component is removed from use in the UI. `shouldComponentUpdate()` is called before rendering the component allowing the developer to decided if a change in state or props warrents an update to the DOM.
+## window.history window.location
 
-#### You don't always need React.Component
+Javascript routing works by manipulating [window.history](https://developer.mozilla.org/en-US/docs/Web/API/History_API)
 
-React.Component does not always need to be inherited from in order to create a Component. However you must always `import React from 'react'` so that React is in scope so that you can use jsx. Components that do not inherit from `React.Component` are known as 'presentational' component.
+## React Router
 
-#### Making API Calls
+[React Router](https://reacttraining.com/react-router/web/guides/quick-start) builds upon the the window history object to give react a more declarative and integrated routing solution. It allows your application to react to changes in state without ever having to reload the page. i.e. using `<Link to="/">Home</Link>` instead of `<a href="/">Home</a>`.
 
-As a general rule API calls should be made at a higher point in your application. Any function which kicks off an API call would most likely get kicked of in `componentDidMount()`. Note that the API call is kicked of _after_ the first render of your component so it would be a good idea to add some kind of loader while this is happening.
+Some of what React Router does may look like total magic, that's because it leverages the [React Context API](https://github.com/ReactTraining/react-router/blob/master/packages/react-router/modules/RouterContext.js) to make certain properties available to nested components. It also utilizes higher order components, we can wrap a deeply nested component in `withRouter()` and that component will have access to any and all Router context.
 
-#### Hooks!
+## Homework
 
-Hooks are new to React and allow developers to create components with significantly reduced boilerplate. The `useState()` function is basically the component's state object and `setState()` compined into one. `useEffect()` is kind of like `componentDidMount()`, `componentDidUpdate()`, and `componentWillUpdate()` all rolled into one function. So clean! [Go Learn Hooks!](https://reactjs.org/docs/hooks-reference.html)
+[Watch This Video](https://youtu.be/cKnc8gXn80Q)
 
-![Captian Hook](https://media.giphy.com/media/FIhBdogDLQiGs/giphy.gif)
-
-#### Homework
-[Review this React Tutorial](https://reactjs.org/tutorial/tutorial.html). It will go over all major concepts involving components, state and props in React. When in doubt look at the wonderfully written [React Docs](https://reactjs.org/docs/getting-started.html).
