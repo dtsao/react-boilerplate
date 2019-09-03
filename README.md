@@ -15,3 +15,7 @@
 # Week 4
 
 [Pages and Routing](https://github.com/leetoufong/react-boilerplate/tree/pages-and-routing)
+
+# Week 5
+
+[Intro to Redux](https://github.com/leetoufong/react-boilerplate/tree/intro-to-redux)
