@@ -1,17 +1,19 @@
-#### React Lessons
+# Intro to Redux
 
-# Week 1
+> Redux is a predictable state container for JavaScript apps.
 
-[Intro to Javascript](https://github.com/cosmycx/js-basics-training)
+Redux...
+- Was created [Dan Abramov](https://github.com/gaearon) who also created [Create React App](https://github.com/facebook/create-react-app)
+- Is framework agnostic and can be used React OR any other view library
+- Helps your application behave consistently
+- Makes it easy to manage the *State* of your application
+- Helps manage data and makes debugging a whole lot easier
+- Uses the concept of uni-directional data flow
 
-# Week 2
+## Getting Started
 
-[Intro to React and Create React App](https://github.com/leetoufong/react-boilerplate/tree/intro-to-react-and-create-react-app)
+To install redux
+1. `cd` into your project's root directory where `package.json` lives
+2. On the command line, run `npm install --save redux` to install it locally in your project's dev environment
 
-# Week 3
-
-[Intro to Components and API calls](https://github.com/leetoufong/react-boilerplate/tree/components-api-calls)
-
-# Week 4
-
-[Pages and Routing](https://github.com/leetoufong/react-boilerplate/tree/pages-and-routing)
+## Lets Build Something Simple!
