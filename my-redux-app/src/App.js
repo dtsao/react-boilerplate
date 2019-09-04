@@ -1,7 +1,7 @@
 import React from "react";
 import Input from "./Input";
 import Output from "./Output";
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class App extends React.Component {
   render() {

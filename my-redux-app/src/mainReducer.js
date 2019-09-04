@@ -7,6 +7,6 @@ export default function(state = initialState, action) {
     case 'SET_TEXT':
       return {...state, text: action.payload};
     default:
-     return state;
+      return state;
   }
 }
