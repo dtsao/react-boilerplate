@@ -19,3 +19,7 @@
 # Week 5
 
 [Intro to Redux](https://github.com/leetoufong/react-boilerplate/tree/intro-to-redux)
+
+# Week 6
+
+[Redux Thunk, etc.](https://github.com/leetoufong/react-boilerplate/tree/redux-thunk-etc)
