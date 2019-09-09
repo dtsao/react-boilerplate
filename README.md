@@ -3,7 +3,7 @@
 # What is a thunk?
 nonstandard past and past participle of think.
 
-"who would've thunk it?" :roll-eyes:
+"who would've thunk it?" :smile: 
 
 https://github.com/reduxjs/redux-thunk
 
