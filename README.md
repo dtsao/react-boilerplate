@@ -118,4 +118,3 @@ The DPRP is composed with 3 micro-UI's:
 # Q&A
 
 # Next steps?
-
