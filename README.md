@@ -34,7 +34,40 @@ export const addApiError = apiError => {
 
 The above code displays an api error message in a toast message via [react-toastify](https://fkhadra.github.io/react-toastify/) and also adds the apiError object to the redux store.
 
-Suppose we later want to enhance `addApiError` to add error logging to a slack channel, including some context information that is stored in redux. Adding `redux-thunk` lets an action creator return a function which receives `dispatch` and `getState` as parameters. The existing code that uses the `addApiError` action does can be used without modification:
+Example usage:
+```javascript
+  // set title, getCsvDefinitionAndValueSets
+  useEffect(() => {
+    document.title = 'Edit Records | DPRP Data Submission Portal | CDC';
+    if (csvDefinition === null) {
+      // only get the csvDefinition once since this doesn't change
+      setGettingCsvDefinition(true);
+      getCsvDefinitionAndValueSets(CSV_DEFINITION_NAME, CSV_DEFINITION_VERSION)
+        .then(
+          axios.spread((valueSetsResp, csvDefinitionResp) => {
+            // console.log('valueSetsResp', valueSetsResp);
+            // console.log('csvDefinitionResp', csvDefinitionResp);
+            dispatch(
+              setCSVDefinition(
+                buildCsvDefinitionObj(
+                  valueSetsResp.data,
+                  csvDefinitionResp.data
+                )
+              )
+            );
+          })
+        )
+        .catch(err => {
+          console.log('getCsvDefinitionAndValueSets error', err);
+          dispatch(addApiError(err));
+        }); // .getCsvDefinitionAndValueSets
+    }
+    setGettingCsvDefinition(false);
+  }, [dispatch, csvDefinition]);
+```
+
+
+Suppose we later want to enhance `addApiError` to add error logging to a slack channel, including some context information that is stored in redux. Adding `redux-thunk` lets an action creator return a function which receives `dispatch` and `getState` as parameters:
 
 ```javascript
 export const addApiError = apiError => {
@@ -65,6 +98,8 @@ export const addApiError = apiError => {
   };
 }; // .addApiError
 ```
+
+The existing code that uses the `addApiError` action can be used without modification, a great benefit when `addApiError` is already used many times.
 
 [from inline-edit-ui-dprp](https://git.cdc.gov/eSurveillance/dprp/inline-edit-ui-dprp/blob/master/src/redux/actions/index.js)
 
